@@ -98,7 +98,7 @@
     width: 85%;
     float: right;
   }
-  .content .h{
+  .content .padding-content{
     padding-left: 10px;
   }
 .backhome{
@@ -126,3 +126,4 @@
     align : left
 
   }
+  /*Form Contact*/

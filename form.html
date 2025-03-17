@@ -1,11 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+<html>
+  <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="css/css.css">
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+
+  </head>
+  <body>
+    <div class="container">
+      <div class ="col-reg">
+        <a href="form.html">สมัครสมาชิก</a>
+      </div>
+      <div class="header">
+        <marquee direction="left" scrollamount="5" 
+                 scrolldelay="60" loop="-1"><h2><img src="images/music.gif" width="52" height="52"><spen style="color:green">**</spen><spen style="color: red">4 ค่ายยักษ์ใหญ่</spen> <spen style="color:green">**</spen><img src="images/music.gif" width="52" height="52"></h2>
+        </marquee>
+      </div>
+      <div class="clear"></div>
+      <div class="nav">
+        <ul>
+            <li class="homepage"><a href="h.html"><img src="images/home.svg"><span><br>Home</span></a></li>
+            <li class="gmm"><a href="h1.html"><img src="images/gmm-logo.svg"><br><span>Grammy</span></a></li>
+            <li class="rs"><a href="h2.html"><img src="images/rs-logo.jpg"><br><span>Promotion</span></a></li>
+            <li class="kita"><a href="h3.html"><img src="images/kita_logo.png"><br><span>คีตา เรคคอร์ด</span></a></li>
+            <li class="nititad"><a href="h4.html"><img src="images/nititad_logo.png"><br><span>นิธิทัศน์ โปรดักชั่น</span></a></li>
+          </ul>
+      </div>
+      <div class="content">
+        <div class="padding-content">
+          <div class="regit-form">
+            <h4>แบบฟอร์มสมัครสมาชิก</h4>
+            <form action="#">
+            <table>
+                <tr>
+                    <td>ชื่อ</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>นามสกุล</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>รหัสผ่าน</td>
+                    <td><input type="password"></td>
+                </tr>
+                <tr>
+                    <td>ระดับการศึกษา</td>
+                    <td>
+                        <select>
+                            <option>ม.6</option>
+                            <option>ปวช.</option>
+                            <option>ปวส.</option>
+                            <option>ปริญญาตรี</option>
+                            <option>ปริญญาโท</option>
+                            <option>ปริญญาเอก</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>เพศ</td>
+                    <td>
+                        <input type="radio" id="men" name="sex" value="men">
+                        <label for="men">ชาย</label><br>
+                        <input type="radio" id="women" name="sex" value="women">
+                        <label for="women">หญิง</label>
+                    </td>
+                </tr>
+            </table>
+            </form>
+          </div>
+        </div>
+      </div>
+    <div class="clear"></div>
+    <div class="footer">
+          <h5>© สิทธิ์ติพงษ์ อินธรรม 6634477024</h5>
+    </div>
+    </div>
+  </body>
 </html>
