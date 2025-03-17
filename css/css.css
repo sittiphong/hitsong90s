@@ -14,32 +14,69 @@
     text-align : center;
   }
   .nav{
-    width: 20%;
-    height: 400px;
+    width: auto;
+    height: auto;
     border : solid 1px red;
     float: left;
+    background-color: rgb(255, 206, 222);
+    padding: 10px;
   }
   .nav ul{
     list-style-type: none;
+    padding : 0px;
+    margin: 0px;
   }
   .nav ul li{
-    background-color: white;
-    width: 80px;
-    height: 80px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
   }
+  .homepage a{
+    color: black;
+  }
+  .gmm a span{
+    background-color: orange;
+    padding: 5px 5px;
+    color: white;
+  }
+  .gmm a{
+    text-decoration: none;
+  } 
+  .rs a span{
+    background-color: green;
+    padding: 5px 5px;
+    color: white;
+  }
+  .rs a{
+    text-decoration: none;
+  }
+ 
   .homepage img{
     width: 52px;
     height: 52px;
   }
   .gmm img{
-    width: 64px;
+    width: 78px;
+    height: 64px;
+  }
+  .rs img{
+    width: 78px;
+    height: 78px;
+  }
+  .kita img{
+    width: 92px;
+    height: 64px;
+  }
+  .nititad img{
+    width: 92px;
     height: 64px;
   }
   .content{
     width :100%;
     border : solid 1px red;
-    text-align : center;
-    height: 400px;
+    text-align : left;
+    padding: 0px;
   }
   .footer{
     text-align: center;
