@@ -1,3 +1,7 @@
+.body{
+  margin: 0px;
+  padding: 0px;
+}
 .container{
     width : 1200px;
     margin : auto;
@@ -10,16 +14,14 @@
   }
   .header{
     height : auto;
-    border : solid 1px red;
+    background-color: rgb(241, 219, 117);
     text-align : center;
   }
   .nav{
-    width: auto;
+    width: 15%;
     height: auto;
-    border : solid 1px red;
     float: left;
     background-color: rgb(255, 206, 222);
-    padding: 10px;
   }
   .nav ul{
     list-style-type: none;
@@ -28,13 +30,18 @@
   }
   .nav ul li{
     background-color: rgb(255, 255, 255);
-    padding: 10px;
+    padding: 25px 10px 25px 10px;
     margin: 10px;
     text-align: center;
   }
   .homepage a{
     color: black;
+    text-decoration: none;
   }
+  .homepage img{
+   float: left;
+  }
+
   .gmm a span{
     background-color: orange;
     padding: 5px 5px;
@@ -51,7 +58,22 @@
   .rs a{
     text-decoration: none;
   }
- 
+  .kita a span{
+    background-color: rgb(240, 155, 169);
+    padding: 5px 5px;
+    color: white;
+  }
+  .kita a{
+    text-decoration: none;
+  }
+  .nititad a span{
+    background-color: rgb(45, 152, 223);
+    padding: 5px 5px;
+    color: white;
+  }
+  .nititad a{
+    text-decoration: none;
+  }
   .homepage img{
     width: 52px;
     height: 52px;
@@ -73,11 +95,15 @@
     height: 64px;
   }
   .content{
-    width :100%;
-    border : solid 1px red;
-    text-align : left;
-    padding: 0px;
+    width: 85%;
+    float: right;
   }
+  .content .h{
+    padding-left: 10px;
+  }
+.backhome{
+  margin: 20px 0px 20px 0px;
+}
   .footer{
     text-align: center;
     padding : 5px;
@@ -88,13 +114,15 @@
     clear: both;
   }
   
-  /*H Index*/
+  /*H Page*/
   .h-h1{
     color:#fcba03;
+    text-align: center;
   }
-  .h-container hr{
+  .hr{
     width: 30%;
     height: 5px;
     background-color: blue;
+    align : left
 
   }
