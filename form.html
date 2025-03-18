@@ -5,7 +5,17 @@
     <link rel="stylesheet" href="css/css.css">
     <meta charset="UTF-8">
     <title>Home Page</title>
-
+<style>
+      table{
+        background-color: #FD9A9C;
+        border-collapse: collapse;
+      }
+      td{
+        padding: 10px 30px 10px 30px;
+        border: 0.5px solid white;
+        
+      } 
+</style>
   </head>
   <body>
     <div class="container">
@@ -29,24 +39,24 @@
       </div>
       <div class="content">
         <div class="padding-content">
-          <div class="regit-form">
+          <div class="regis-form">
             <h4>แบบฟอร์มสมัครสมาชิก</h4>
             <form action="#">
             <table>
                 <tr>
-                    <td>ชื่อ</td>
+                    <td><b>ชื่อ</b></td>
                     <td><input type="text"></td>
                 </tr>
                 <tr>
-                    <td>นามสกุล</td>
+                    <td><b>นามสกุล</b></td>
                     <td><input type="text"></td>
                 </tr>
                 <tr>
-                    <td>รหัสผ่าน</td>
+                    <td><b>รหัสผ่าน</b></td>
                     <td><input type="password"></td>
                 </tr>
                 <tr>
-                    <td>ระดับการศึกษา</td>
+                    <td><b>ระดับการศึกษา</b></td>
                     <td>
                         <select>
                             <option>ม.6</option>
@@ -59,13 +69,42 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>เพศ</td>
+                    <td><b>เพศ</b></td>
                     <td>
                         <input type="radio" id="men" name="sex" value="men">
                         <label for="men">ชาย</label><br>
                         <input type="radio" id="women" name="sex" value="women">
                         <label for="women">หญิง</label>
                     </td>
+                </tr>
+                <tr>
+                  <td><b>ภาษาที่พูดได้</b></td>
+                  <td>
+                    <input type="checkbox" id="eng" name="eng" value="eng">
+                    <label for="eng">ภาษาอังกฤษ</label><br>
+                    <input type="checkbox" id="th" name="th" value="th">
+                    <label for="eng">ภาษาไทย</label><br>
+                    <input type="checkbox" id="other" name="other" value="other">
+                    <label for="other">ภาษาอื่นๆ</label><br><br>
+                  </td>
+                </tr>
+                <tr>
+                  <td><b></be>เลือกสีที่ชอบ</b></td>
+                  <td><input type="color"></td>
+                </tr>
+                <tr>
+                  <td><b>วันเกิด</b></td>
+                  <td><input type="datetime-local"></td>
+                </tr>
+                <tr>
+                  <td><b>E-mail</b></td>
+                  <td><input type="email"></td>
+                </tr>
+                <tr style="text-align: center;">
+                  <td colspan="2">
+                      <input type="submit" value="บันทึก">
+                      <input type="reset" value="ยกเลิก">
+                  </td>
                 </tr>
             </table>
             </form>
