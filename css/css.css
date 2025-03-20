@@ -1,6 +1,9 @@
-.body{
+body{
   margin: 0px;
   padding: 0px;
+  font-family: "IBM Plex Sans Thai", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 .container{
     width : 1200px;
@@ -14,14 +17,14 @@
   }
   .header{
     height : auto;
-    background-color: rgb(241, 219, 117);
+    background-color: #FABF8F;
     text-align : center;
   }
   .nav{
     width: 15%;
     height: auto;
     float: left;
-    background-color: rgb(255, 206, 222);
+    background-color: #FFF2CC ;
   }
   .nav ul{
     list-style-type: none;
@@ -106,7 +109,7 @@
   .footer{
     text-align: center;
     padding : 5px;
-    background-color: yellow;
+    background-color: #FFFF00;
     border : solid 1px red;
   }
   .clear{
