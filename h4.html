@@ -8,6 +8,41 @@
     <link rel="stylesheet" href="css/css.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>นิธิทัศน์ โปรดักชั่น</title>
+    <style>
+      body {
+          font-family: Arial, sans-serif;
+          text-align: center;
+          background-image: url('background.jpg');
+          background-size: cover;
+      }
+      .title-container {
+          text-align: center;
+      }
+      .title-container img {
+          width: 150px;
+      }
+      .title-container h1 {
+          font-size: 24px;
+          color: purple;
+          font-weight: bold;
+      }
+      table {
+          width: 80%;
+          margin: auto;
+          border-collapse: collapse;
+          border: 2px solid black;
+      }
+      th, td {
+          border: 1px solid black;
+          padding: 10px;
+          text-align: center;
+      }
+      .header1 { background-color: pink; }
+      .band-name span { text-decoration: underline; }
+      .band-name .black { color: black; }
+      .band-name .red { color: red; }
+  </style>
+
 </head>
 <body>
     <div class="container">
@@ -30,7 +65,34 @@
             </ul>
         </div>
         <div class="content">
-          
+          <div class="title-container">
+            <img src="/images/รูปค่ายเพลงนิธิ.jpg" alt="Nithitad Records Logo">
+            <h1>ตัวอย่างเพลงค่าย นิธิทัศน์ โปรโมชั่น</h1>
+        </div>
+        <table>
+            <tr>
+                <th class="header1">ชื่อวง</th>
+                <th class="header1">ตัวอย่างคลิป Video</th>
+            </tr>
+            <tr>
+                <td class="band-name"><span class="black">วง</span> <span class="red">ชาตรี</span></td>
+                <td>
+                    <video width="300" height="250" controls>
+                        <source src="/videos/ดอกไม้ป่า.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </td>
+            </tr>
+            <tr>
+                <td class="band-name"><span class="red">คณะ</span> <span class="black">ดอกไม้ป่า</span></td>
+                <td>
+                    <video width="300" height="250" controls>
+                        <source src="/videos/ชาตรี.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </td>
+            </tr>
+        </table>
         </div>
       <div class="clear"></div>
       <div class="footer">
